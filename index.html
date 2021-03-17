@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>泡水報名表</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=BBa6VJbwuovjKSTemv1LcCp09YkrU9fdxxlX1gI1NAvFoOK1Y1BgHt7Zt5IrxG20dagsT8MKNnhKw7KqDkm3Ew" charset="UTF-8"></script></head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" >泡水方案</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">主頁 <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    <div style="margin: 30px;">
+        <form action="check.php" method="post">
+      <div class="form-group">
+        <label for="name">姓名</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="請輸入姓名">
+      </div>
+      <div class="form-group">
+        <label for="phone">電話號碼</label>
+        <input type="phone" name="phone" id="phone" class="form-control" placeholder="請輸入電話號碼">
+      </div>  
+      <div class="form-group">
+        <label for="e-mail">E-mail</label>
+        <input type="text" name="e-mail" id="e-mail" class="form-control" placeholder="請輸入E-mail">
+      </div>
+      
+      <table class="table table-striped table-bordered table-hover"> 
+        <thead class="table-info text-center">
+            <tr>
+                <th>教練</th>
+                <th>授課時段</th>
+                <th>泳式</th>
+                <th>價格</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">frog</td>
+                <td>一~五 上午10點~12點</td>
+                <td>蛙式</td>
+                <td>月/6000</td>
+            </tr>
+            <tr>
+                <td scope="row">turtle</td>
+                <td>一~五 下午2點~4點</td>
+                <td>仰式</td>
+                <td>月/5000</td>
+            </tr>
+            <tr>
+                <td scope="row">fish</td>
+                <td>一~五 下午4點~6點</td>
+                <td>自由式</td>
+                <td>月/8000</td>
+            </tr>
+            <tr>
+                <td scope="row">wolf</td>
+                <td>一~五 下午6點~9點</td>
+                <td>蝶式</td>
+                <td>月/12000</td>
+            </tr>
+         
+        </tbody>
+    </table>
+    <div class="form-group">
+        <label for="日期">報到日期</label>
+        <input type="date" name="date" id="date" class="form-control" placeholder="請輸入上課日期">
+      </div>
+      <div class="form-group">
+        <label for="">報名項目</label>
+        <select class="form-control" name="class" id="">
+          <option value="蝶式">蝶式</option>
+          <option value="自由式">自由式</option>
+          <option value="蛙式">蛙式</option>
+          <option value="仰式">仰式</option>
+        </select>
+        <label for="">玩水經驗</label>
+        <select class="form-control" name="class" id="">
+          <option value="never">從未</option>
+          <option value="usually">偶爾</option>
+          <option value="often">經常</option>
+          <option value="always">總是</option>
+        </select>
+      </div>  
+      <p class="lead">
+                <a class="btn btn-primary btn-lg" href="test.html" role="button">送出台幣 </a>
+ 
+  </body>
+</html>
